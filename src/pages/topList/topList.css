@@ -1,0 +1,44 @@
+.mod_topic{
+    display:flex;
+    overflow: hidden;
+    background:white;
+    width:97%;
+    margin-left:5px;
+    margin-bottom:10px;
+}
+.left img{
+    width:100px;
+    height:100px;
+}
+.left{
+    float:left;
+    width:100px;
+}
+.right{
+    float:left;
+    height:100px;
+    flex:1;
+    padding-left:15px;
+
+}
+.right p{
+    line-height: 14px;
+}
+.topList{
+    background:rgba(0, 0, 0, 0.1);
+    margin-top:-17px;
+    padding:10px;
+}
+.count{
+    margin-top:-30px;
+    color:white;
+    margin-left:5px;
+    font-size: 12px;
+}
+.sl{
+    word-break:keep-all; white-space:nowrap; overflow:hidden;
+    text-overflow:ellipsis;
+    width:150px;
+    font-size:14px;
+    margin-bottom:5px;
+}

@@ -1,0 +1,105 @@
+
+.songList{
+    overflow: hidden;
+}
+.logo1{
+    height:47px;
+    width:100vw;
+    position:fixed;
+    background:white;
+    z-index: 5;
+}
+.logo1 img{
+    width:39px;
+    height:39px;
+    margin:5px;
+}
+.down1{
+    display: inline-block;
+    position:absolute;
+    border: 1px solid #d8d7d7;
+    padding:3px;
+    border-radius: 18px;
+    font-size: 12px;
+    margin-top:10px;
+    margin-left:40px;
+    width:80px;
+    text-align: center
+}
+.more{
+    display:inline-block;
+    font-size: 14px;
+}
+
+.songPic{
+    margin-top:60px;
+}
+.songPic div{
+    text-align: center
+}
+.songPic img{
+    width:163px;
+    height:163px;
+    border-radius: 20px;
+    box-shadow: darkgrey 1px 0px 10px 1px
+}
+.sp{
+    text-align: center
+}
+.ant-btn-round{
+    width:150px;
+}
+
+.ant-btn-primary{
+    background:#22D59C;
+    border-color:#22D59C
+}
+
+.slt{
+    overflow: hidden;
+    display:flex;
+    font-size: 10px;
+    margin-bottom:10px;
+}
+
+.sltl{
+    width:51px;
+    float: left;
+    text-align: center
+}
+.sltl .red{
+    color:red
+}
+.sltm{
+    margin-left:5px;
+    flex:1;
+    float: left;
+}
+.sltm h2{
+    margin-bottom: 0px;
+    word-break:keep-all; white-space:nowrap; overflow:hidden;
+    text-overflow:ellipsis;
+    width:210px;
+}
+
+.sltm div{
+    display: inline-block;
+    margin-left:5px;
+    font-size: 10px;
+}
+.sltr{
+    width:40px;
+    float: left
+}
+.phb{
+    font-size: 12px;
+    margin:10px;
+}
+.bdzs{font-size: 14px;margin-top:20px;}
+.lxts{font-size: 12px;}
+.gxsj{font-size: 12px;}
+.rise{
+    font-size: 10px;
+    color:red;
+    
+}

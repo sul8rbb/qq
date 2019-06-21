@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .image {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin: 100px auto;
+            display: block;
+            border: dotted solid #666;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="1.png" id="img" class="image" onclick="timeout ? stopAnim() : startAnim()" />
+    </div>
+
+    <script type="text/javascript">
+        var timeout, rotate = 0;
+        function startAnim() {
+            timeout = setInterval(function () {
+                var img = document.getElementById("img");
+                var rotateStyle = "rotate(" + rotate + "deg)";
+                img.style.transform = rotateStyle;
+                img.style["-moz-transform"] = rotateStyle;
+                img.style["-webkit-transform"] = rotateStyle;
+                img.style["-o-transform"] = rotateStyle;
+                img.style["-ms-transform"] = rotateStyle;
+
+                rotate += 6;
+                if (rotate > 360) {
+                    rotate = 0;
+                }
+            }, 80);
+        }
+        function stopAnim() {
+            clearInterval(timeout);
+            timeout = null;
+        }
+
+        startAnim();
+    </script>
+</body>
+
+</html>

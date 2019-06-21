@@ -1,0 +1,36 @@
+.nav{
+    margin-left:20px;
+}
+
+
+
+.mains1{
+    overflow: hidden;
+    border-bottom: 1px solid rgb(237, 250, 226);
+    height:73px;
+}
+.logo{
+    height:70px;
+    width:100vw;
+    position:fixed;
+    /* border-bottom: 2px solid rgb(223, 217, 217); */
+    background:white;
+    z-index: 5;
+}
+.logo img{
+    width:127px;
+    height:35px;
+    margin:15px;
+}
+.down{
+    display: inline-block;
+    position:absolute;
+    border: 1px solid #d8d7d7;
+    padding:3px;
+    border-radius: 18px;
+    font-size: 14px;
+    margin-top:15px;
+    margin-left:70px;
+    width:80px;
+    text-align: center
+}

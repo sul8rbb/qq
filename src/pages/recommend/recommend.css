@@ -1,0 +1,57 @@
+.ant-carousel .slick-slide {
+    margin-top:0;
+    text-align: center;
+    width:320px;
+    height: 158px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  .swiper img{
+      /* width:320px; */
+      width:100vw;
+      height:158px;
+      margin:0;
+
+  }
+  .swiper{
+      margin-top:-16px;
+  }
+  .dtai{
+      margin-left:15px;
+      margin-top:20px;
+  }
+  .hots{
+      margin-top:15px;
+  }
+  .hots img{
+    width:3rem;
+    height:3rem;
+    margin-top:0.15rem;
+    margin-left:0.52rem;
+  }
+.hots .imgs{
+      float:left;
+  }
+.hots .imgs span{
+  display: block;
+  margin-left:0.5rem;
+}
+
+.fontStyle{
+  text-align: center;
+  margin-top:230px;
+}
+.cy{
+  text-align: center;
+  font-size: 10px ;
+  color: rgba(0,0,0,.6)
+}
+.flogo{
+  width:82px;
+  height:24px;
+}

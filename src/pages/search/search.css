@@ -1,0 +1,75 @@
+.ant-input{
+    width:250px;
+}
+
+
+.searchIpt{
+    display: flex;
+    overflow: hidden;
+    background:rgba(0, 0, 0, 0.1);
+    height:50px;
+    margin-top:-16px;
+}
+.input{
+    float: left;
+    flex:1;
+    line-height: 50px;
+    margin-left:10px;
+}
+.cancel{
+    float: left;
+    margin-right:20px;
+    line-height: 50px;
+}
+.ss{
+    margin-left:10px;
+}
+
+.hotWords{
+    border:1px solid black;
+    border-radius: 20px;
+    padding:5px;
+    display: inline-block;
+    margin-left:15px;
+    float:left;
+    margin-bottom:10px;
+    font-size:14px;
+}
+.hotWordr{
+    border:1px solid red;
+    border-radius: 20px;
+    padding:5px;
+    display: inline-block;
+    margin-left:15px;
+    float:left;
+    margin-bottom:10px;
+    color:red;
+    font-size:14px;
+}
+
+.searchResult{
+    display: flex;
+    overflow: hidden;
+    border-bottom:1px solid rgb(177, 175, 175);
+    height:60px;
+}
+.sleft{
+    width:100px;
+    float:left
+}
+.sleft div{
+    text-align: center;
+    font-size: 40px;
+    line-height:60px;
+}
+.sright{
+    flex:1;
+    float: left;
+}
+.sright .gm{
+    line-height: 40px;
+}
+.sright .gs{
+    line-height: 10px;
+    font-size: 12px;
+}

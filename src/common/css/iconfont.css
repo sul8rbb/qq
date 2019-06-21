@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1560997917440'); /* IE9 */
+  src: url('iconfont.eot?t=1560997917440#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOoAAsAAAAAB9gAAANcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDFIJqATYCJAMQCwoABCAFhG0HSBvcBsgekiSEQMEeOPyABGQjHr72ez337X5klShAiTg+KuOLoNlGtUazq22NrTDAQubH96pXLqDsHr5kFqnGac7Clzw62LABpxCAxLbg4MM+cT91eT6wfPZtLlHlEUGj3QDHrQPqxjVJgUzQtxyOvQqPruME6qaVwpw2adUJImVkXCDumboEkSmTXJMeqkK5ZGkWr0FQLS7YiwBe+d+P31AhIimUEjL17EZjFep9i3tWnBv1fxT0ckkgHs8BcRUJK0AmbpW6ruDCwApOXe/NWweqqgrGait4Vvz/JUj2oqrSvzwKIRFlJLUJViGY+BZnExR8KyAIvhVPkeCFjK6ihrvAJ6APs0pCmsSJVF9vkp5PpixggsEufn+nUfOimaFQ10Cg87x13RYsSOcWLoyRcv3+HnCwwaC3iaDqFlPnp7Hz5vXY5w8EKg/s13lRuNPmxz07D/U/6RR42jn0vGvw2SCm6BIIkvyCbft0OXIRsavP1ex6cnSF1Uui/0Wzjxcu9zleZvkStj9kpz6avTh0aDJH+S6fm9o8v/LcWe+iSka9j27O9OvHIHlz/FK54p8P0wC6rjeokVMyrDkT/T+qVNTLopJHKrYYDP+XN34r87c7WJh1MjncM+4CKI0KCwgJYWpAyJFBVtzcK6f5yGrGjNORkTLcbS5ti/fYKR5KH28HwdXtoR8yMr1hfwHSF/b1j/uN1a2aR/om1PoaGZPB1/JJeX7RpTyklwBvX9xa/JvELcuyISXmnDWZLTKTsz0C956uro6fE6Hv3hiaUetUQtUoRqFiCknVDDnTV1DSsIqyqgPULWu6umGA4ESuYcl4hNC1E4W2z0i6LpEz/S5Kxt6irBsc6s4jZcuGuTCjGxIsUawieTAyFY9bY1YaHaR3wHp/p0SSUp/ZBRPbdKPyZcplw02xG5MxZtgD9AqUakgjHhdqgk7DTqcHeYnHwgotY1DqrVG2rFb2pDKKxwXRThCYhMJUiGwwxKTwcNPc6lR07vMdYLr+nCSkpqTO2wVG2MzOkfLKKNeC3FTlblVyLefYBtBVQFEaREN4uCBNkANz0oAH4i0fZMEUVBlGD59XDWWhktZWVWZ+jesJ10AduUWOIlLkKKncwpJqYxqjOgb2paZtYLcuyh5N8owA') format('woff2'),
+  url('iconfont.woff?t=1560997917440') format('woff'),
+  url('iconfont.ttf?t=1560997917440') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1560997917440#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-headset:before {
+  content: "\e61f";
+}
+
+.icon-dkw_tisheng:before {
+  content: "\e60d";
+}
+
+.icon-bofang:before {
+  content: "\e624";
+}
+
